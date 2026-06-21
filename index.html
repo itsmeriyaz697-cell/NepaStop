@@ -6,6 +6,7 @@
     <title>Nepa Stop | Premium Edition</title>
     <meta name="description" content="Nepa Stop — test your reflexes. Stop the timer at exactly 00:05.000. Part of the Nepa Ecosystem.">
     <style>
+        /* Stark Premium Minimalist White & Black Vibe */
         * {
             margin: 0;
             padding: 0;
@@ -15,7 +16,11 @@
         }
 
         body {
-            background: linear-gradient(135deg, #000000, #111111);
+            background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('sponsor-banner.jpg');
+            background-size: cover;
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
             color: #ffffff;
             display: flex;
             justify-content: center;
@@ -24,6 +29,7 @@
             padding: 20px;
         }
 
+        /* Premium White Frame Container */
         .phone-container {
             width: 100%;
             max-width: 390px;
@@ -37,6 +43,7 @@
             position: relative;
         }
 
+        /* Luxury Sponsor Banner Component — image version */
         .sponsor-banner {
             display: block;
             width: 100%;
@@ -61,12 +68,12 @@
 
         .sponsor-label {
             text-align: center;
-            font-size: 0.6rem;
-            font-weight: 700;
+            font-size: 0.65rem;
+            font-weight: 800;
             text-transform: uppercase;
             letter-spacing: 2px;
             color: #999999;
-            margin: -14px 0 18px 0;
+            margin: 0 0 22px 0;
         }
 
         header h1 {
@@ -86,6 +93,7 @@
             margin-bottom: 35px;
         }
 
+        /* Minimal Target Badge */
         .target-box {
             background: #f5f5f7;
             border: 1px solid #e5e5e7;
@@ -102,6 +110,7 @@
             font-size: 1.1rem;
         }
 
+        /* Bold Stark Timer Display */
         .timer-display {
             font-size: 3.8rem;
             font-weight: 900;
@@ -112,6 +121,7 @@
             transition: color 0.15s ease;
         }
 
+        /* Controls Layout */
         .control-group {
             display: flex;
             flex-direction: column;
@@ -119,6 +129,7 @@
             margin-bottom: 25px;
         }
 
+        /* Premium Stark Buttons */
         .btn {
             width: 100%;
             padding: 16px;
@@ -131,6 +142,7 @@
             outline: none;
         }
 
+        /* Pure Black Action Button */
         .action-btn {
             background: #000000;
             color: #ffffff;
@@ -142,10 +154,12 @@
             opacity: 0.9;
         }
 
+        /* Pure Dark Gray for Stop State */
         .action-btn.stop-mode {
             background: #222222;
         }
 
+        /* Clean Bordered Reset Button */
         .reset-btn {
             background: transparent;
             color: #000000;
@@ -164,6 +178,7 @@
             transform: scale(0.98);
         }
 
+        /* Feedback Status */
         .feedback {
             height: 28px;
             font-weight: 800;
@@ -176,6 +191,7 @@
         .close { color: #333333; }
         .missed { color: #888888; font-weight: 500; }
 
+        /* Performance Tracking Metric UI */
         .stats-container {
             margin-top: 25px;
             border-top: 1px solid #e5e5e7;
@@ -209,6 +225,7 @@
             font-weight: 800;
         }
 
+        /* Share button */
         .share-btn {
             background: #f5f5f7;
             color: #000000;
@@ -230,11 +247,8 @@
 
     <div class="phone-container">
 
-        <!-- SPONSOR BANNER: swap href to Creator Support Nepal's actual page link -->
-        <a class="sponsor-banner" href="https://www.facebook.com/CreatorSupportNepal" target="_blank" rel="noopener">
-            <img src="sponsor-banner.jpg" alt="Creator Support Nepal — Real Followers, Real Engagement, Real Growth">
-        </a>
-        <p class="sponsor-label">Sponsored by Creator Support Nepal</p>
+        <!-- Sponsor banner now lives as the page background -->
+        <p class="sponsor-label">⚡ Sponsored by Creator Support Nepal ⚡</p>
 
         <header>
             <h1>NEPA STOP</h1>
