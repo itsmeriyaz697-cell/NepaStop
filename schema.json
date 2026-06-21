@@ -1,0 +1,16 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Nepa Stop",
+  "url": "https://nepa-stop.vercel.app/",
+  "description": "An ultra-premium minimalist reaction and timing game where players attempt to stop a high-precision timer exactly on 5.000 seconds.",
+  "applicationCategory": "GameApplication",
+  "operatingSystem": "All",
+  "browserRequirements": "Requires HTML5, CSS3, and JavaScript support.",
+  "author": {
+    "@type": "Organization",
+    "name": "Nepa Ecosystem"
+  }
+}
+</script>
